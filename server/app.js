@@ -18,6 +18,11 @@ require('express-async-errors');
 // Accept json data:
 app.use(express.json())
 
+
+const cors = require('cors')
+
+app.use(cors())
+
 /* ------------------------------------------------------- */
 // ROUTERS:
 
